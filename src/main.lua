@@ -5,6 +5,7 @@ function love.load()
   --[[ * You can add scenes using addScene function, addScene receives a table with the name of scripts .lua, each is a scene, to be added. Scenes will just run after you call them in below.
   ]]--
   viewer:addScene({'firstScene','secondScene'})
+  -- Or just add a unique scene by file name.
   viewer:addScene('thirdScene')
 end
 
